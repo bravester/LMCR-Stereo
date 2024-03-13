@@ -1,0 +1,23 @@
+seed: 0
+mixed_precision: false
+base_lr: 4.0e-4
+
+nr_gpus: 1
+batch_size_single: 4
+n_total_epoch: 500
+minibatch_per_epoch: 200
+
+loadmodel: ~
+log_dir: "./train_log"
+model_save_freq_epoch: 20
+
+max_disp: 256
+image_width: 512
+image_height: 384
+# I:\dataset\sample_cres_result
+#training_data_path: "I:\\dataset\\sample_KITTI_small"
+#training_data_path: "./experiment-datasets/SceneFlow7"
+training_data_path: "./stereo_trainset"
+
+log_level: "logging.INFO"
+
